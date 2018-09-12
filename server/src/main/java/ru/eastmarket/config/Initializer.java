@@ -1,9 +1,10 @@
-package ru.eastmarket;
+package ru.eastmarket.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
+import ru.eastmarket.config.Config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

@@ -1,4 +1,4 @@
-package ru.eastmarket;
+package ru.eastmarket.core;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

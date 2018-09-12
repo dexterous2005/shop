@@ -1,4 +1,4 @@
-package ru.eastmarket;
+package ru.eastmarket.entity.test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,8 +12,12 @@ import java.util.List;
 @Service
 public class TestEntityServiceImpl implements TestEntityService {
 
+	private final TestEntityRepository repository;
+
 	@Autowired
-	private TestEntityRepository repository;
+	public TestEntityServiceImpl(TestEntityRepository repository) {
+		this.repository = repository;
+	}
 
 	@Override
 	public List<TestEntity> get() {

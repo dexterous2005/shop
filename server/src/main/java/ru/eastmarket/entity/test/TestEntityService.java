@@ -1,4 +1,4 @@
-package ru.eastmarket;
+package ru.eastmarket.entity.test;
 
 import java.util.List;
 

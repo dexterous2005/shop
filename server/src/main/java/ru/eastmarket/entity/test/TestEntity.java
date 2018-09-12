@@ -1,4 +1,6 @@
-package ru.eastmarket;
+package ru.eastmarket.entity.test;
+
+import ru.eastmarket.core.AbstractEntity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
