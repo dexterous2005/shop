@@ -1,4 +1,4 @@
-package ru.eastmarket.service;
+package ru.eastmarket.controller;
 
 /**
  * @author Dmitry Dobrin.
